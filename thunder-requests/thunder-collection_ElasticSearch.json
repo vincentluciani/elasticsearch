@@ -1,0 +1,30 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ElasticSearch",
+    "collectionId": "55199508-619a-46f6-99c9-73fe88001806",
+    "dateExported": "2026-02-08T12:50:25.247Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "93d55f84-9e50-4b32-b917-9f01531142f0",
+            "colId": "55199508-619a-46f6-99c9-73fe88001806",
+            "containerId": "",
+            "name": "Elastic health",
+            "url": "https://localhost:9200/_cluster/health",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2026-02-08T12:41:52.575Z",
+            "modified": "2026-02-08T12:49:34.537Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "elastic",
+                    "password": "{{elastic}}"
+                }
+            }
+        }
+    ],
+    "ref": "71V9pKzEPt5fkctK2rz9M4oTG_usCzDWwzj0T-lQFrb7iXEWv3YZKog1wHZl34PQCBCFROYVAcOz1INJ-HypXg"
+}
